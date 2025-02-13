@@ -1,0 +1,99 @@
+
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1304px;
+    }
+}
+
+@media (max-width:1000px) {
+    .banner-main-img-wraper img{
+        position: relative;
+    }
+
+    .banner-bg-1 , .banner-bg-2{
+        display: none;
+    }
+
+    .House-Hunt-main-img{
+        width: 100%;
+        transform: translateX(0%);
+    }
+
+    .Desktop-Valuation-main-img-wrap > img{
+        max-width: 100%;
+    }
+
+    .Desktop-Valuation-card-wrap{
+        flex-direction: row;
+    }
+
+    .Home-Grid-cards-wraper > *{
+        flex-basis: 400px;
+    }
+    
+}
+
+@media (max-width:1200px) {
+    .nav-options{
+        display: none;
+    }
+
+    .House-Hunt-main-img{
+        width: 100%;
+        transform: translateX(0%);
+        object-fit: cover;
+    }
+
+    .House-Hunt-main-img img{
+        width: 100%;
+    }
+
+    .House-Hunt-card-wrap{
+        top: 50%;
+        left: 50%;
+        right: auto;
+        bottom: auto;
+        transform: translate(-50% , -50%);
+        justify-content: center;
+    }
+
+    .House-Hunt-cont-card{
+        margin: 0px auto 20px;
+    }
+
+    .Desktop-Valuation-main-img-wrap > img{
+        position: relative;
+    }
+
+    .Desktop-Valuation-card-wrap{
+        top: 50%;
+        left: 50%;
+        bottom: auto;
+
+        transform: translate(-50% , -50%);
+    }
+
+
+
+}
+
+@media (max-width:700px) {
+    .House-Hunt-card-wrap{
+        flex-direction: column;
+    }
+
+    .House-Hunt-main-img img{
+        height: 700px;
+    }
+}
+
+@media (max-width:600px) {
+    .nav-btn-wrap{
+        gap: 5px;
+    }
+
+    .nav-Log-In-btn, .nav-Sign-Up-btn{
+        padding: 14px 10px;
+    }
+}
