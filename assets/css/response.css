@@ -24,6 +24,13 @@
         max-width: 100%;
     }
 
+    .Speak-to-an-Expert-sec .Desktop-Valuation-main-img-wrap > img{
+        max-height: 700px;
+        height: 700px;
+        object-fit: cover;
+        
+    }
+
     .Desktop-Valuation-card-wrap{
         flex-direction: row;
     }
@@ -31,10 +38,72 @@
     .Home-Grid-cards-wraper > *{
         flex-basis: 400px;
     }
+
+    .Investible-Score-Report-main-img{
+        position: relative;
+        width: 100%;
+        right: auto;
+        left: auto;
+        bottom: auto;
+        top: auto;
+    }
+
+    .Investible-Score-Report-cont-wrap{
+        max-height: 100%;
+    }
+
+    .Investible-Score-Report-main-inner-cards-wrap{
+        flex-direction: row;
+        right: auto;
+        bottom: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        max-width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* height: 100%; */
+    }
+
+    .Investible-Score-Report-main-img{
+        /* max-height: 1500px;
+        height: 1500px; */
+        /* padding: 100px 0px; */
+        max-height: 700px;
+        height: 700px;
+    }
+
+    .Investible-Score-Report-main-img img{
+        height: 100%;
+    }
     
 }
 
 @media (max-width:1200px) {
+
+    .Why-choose-us-main-card h6{
+        max-width: 100% !important;
+    }
+
+    .Why-choose-us-main-card .primary-icon-wrap{
+        margin: 20px auto;
+    }
+
+    .Why-choose-us-main-card{
+        max-width: 100% !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .Why-choose-us-card-wrap{
+        flex-wrap: wrap;
+    }
+
+    .Desktop-Valuation-main-img-wrap{
+          display: grid;
+          place-content: center;
+    }
+
     .nav-options{
         display: none;
     }
@@ -70,8 +139,15 @@
         top: 50%;
         left: 50%;
         bottom: auto;
-
         transform: translate(-50% , -50%);
+    }
+
+    .Speak-to-an-Expert-sec .Desktop-Valuation-card-wrap{
+        top: 50%;
+        left: 50%;
+        bottom: auto;
+        transform: translate(-50% , -50%);
+        flex-direction: column;
     }
 
 
@@ -97,3 +173,4 @@
         padding: 14px 10px;
     }
 }
+

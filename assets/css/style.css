@@ -45,7 +45,7 @@ h5 {
 
 h6 {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 18px;
 }
 
@@ -65,7 +65,7 @@ button {
 }
 
 
-.section-padding{
+.section-padding {
     padding: 80px 0px;
 }
 
@@ -377,7 +377,7 @@ a:hover {
     justify-content: end;
     align-items: end;
     padding-bottom: 35px;
-    grid-row-start:auto;
+    grid-row-start: auto;
 }
 
 .Home-Grid-card-see-testimonial {}
@@ -392,9 +392,9 @@ a:hover {
         flex-wrap: wrap;
     }
 
-    .Home-Grid-cards-4{}
+    .Home-Grid-cards-4 {}
 
-    .Home-Grid-cards-wraper > *{
+    .Home-Grid-cards-wraper>* {
         flex-basis: 500px;
     }
 
@@ -435,15 +435,15 @@ a:hover {
     }
 }
 
-.House-Hunt-cont-wrap .House-Hunt-cont-card{
+.House-Hunt-cont-wrap .House-Hunt-cont-card {
     max-width: 456px;
     width: 100%;
 }
 
-.House-Hunt-cont-card{
+.House-Hunt-cont-card {
     display: flex;
     align-items: center;
-    padding: 20px 20px 20px 30px ;
+    padding: 20px 20px 20px 30px;
     gap: 30px;
     border: var(--border);
     border-radius: var(--radiusPrimary);
@@ -451,21 +451,27 @@ a:hover {
     background-color: white;
 }
 
-.House-Hunt-cont-card p{
+.House-Hunt-cont-card p {
     margin: 0px;
 }
 
-.House-Hunt-main-para{
+.House-Hunt-main-para {
     margin-bottom: 80px;
 }
 
-.House-Hunt-main-img-wrap{
+.House-Hunt-main-img-wrap {
     position: relative;
     height: 100%;
     width: 100%;
 }
 
-.House-Hunt-main-img{
+.Investible-Score-Report-main-img-wrap {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.House-Hunt-main-img {
     position: relative;
     height: 100%;
     width: 880px;
@@ -474,11 +480,25 @@ a:hover {
     z-index: -1;
 }
 
-.House-Hunt-main-img img{
+.Investible-Score-Report-main-img {
+    position: absolute;
+    height: 100%;
+    width: 880px;
+    max-height: 625px;
+    right: 0px;
+    z-index: -1;
+}
+
+.House-Hunt-main-img img {
     height: 100%;
 }
 
-.House-Hunt-card-wrap{
+.Investible-Score-Report-main-img-wrap>img {
+    width: 100%;
+    height: 100%;
+}
+
+.House-Hunt-card-wrap {
     position: absolute;
     right: 13px;
     bottom: 13px;
@@ -486,22 +506,22 @@ a:hover {
     gap: 10px;
 }
 
-.House-Hunt-card-wrap > *{
+.House-Hunt-card-wrap>* {
     flex-shrink: 0;
 }
 
-.House-Hunt-cards{
+.House-Hunt-cards {
     background-color: var(--white);
     padding: 10px;
     border-radius: var(--radiusPrimary);
 }
 
-.House-Hunt-card-innter-card-bottom span{
+.House-Hunt-card-innter-card-bottom span {
     display: flex;
     gap: 6px;
 }
 
-.House-Hunt-card-innter-card-bottom{
+.House-Hunt-card-innter-card-bottom {
     display: flex;
     flex-wrap: wrap;
     max-width: 232px;
@@ -510,38 +530,38 @@ a:hover {
 
 }
 
-.House-Hunt-card-tit{
+.House-Hunt-card-tit {
     margin-bottom: 5px;
 }
 
-.House-Hunt-card-para{
+.House-Hunt-card-para {
     padding-bottom: 10px;
-    border-bottom:var(--border) ;
+    border-bottom: var(--border);
 }
 
 
-.House-Hunt-card-img{
+.House-Hunt-card-img {
     margin-bottom: 8px;
 }
 
-.House-Hunt-card-cont{
+.House-Hunt-card-cont {
     padding: 0px 0px 0px 0px;
 }
 
-.Desktop-Valuation-main-img-wrap{
+.Desktop-Valuation-main-img-wrap {
     position: relative;
     height: 100%;
     width: 100%;
 }
 
-.Desktop-Valuation-main-img-wrap > img{
+.Desktop-Valuation-main-img-wrap>img {
     position: absolute;
     height: 100%;
     max-width: 880px;
     z-index: -1;
 }
 
-.primary-btn{
+.primary-btn {
     max-width: 252px;
     width: 100%;
     padding: 14px 0px;
@@ -552,34 +572,368 @@ a:hover {
     transition: background-color 0.4s ease-in-out;
 }
 
-.primary-btn:hover{
+.primary-btn:hover {
     color: black;
     background-color: var(--primary);
 
 }
 
-.Desktop-Valuation-btn{
+.Desktop-Valuation-btn {
     margin-left: auto;
     margin-bottom: 37px;
 }
 
-.Desktop-Valuation-main-tit{
+.Desktop-Valuation-main-tit {
     margin-bottom: 22px;
 }
 
-.Desktop-Valuation-main-para{
+.Desktop-Valuation-main-para {
     margin-bottom: 32px;
 }
 
-.Desktop-Valuation-main-cont-wrap{
+.Desktop-Valuation-main-cont-wrap {
     padding-top: 43px;
 }
 
-.Desktop-Valuation-card-wrap{
+.Desktop-Valuation-card-wrap {
     position: absolute;
     left: 15px;
     bottom: -30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.Investible-Score-Report-main-inner-card {
+    padding: 18px 17px;
+    background-color: var(--white);
+    border-radius: var(--radiusPrimary);
+}
+
+.Investible-Score-Report-main-inner-card span {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.Investible-Score-Report-main-inner-cards-wrap {
+    position: absolute;
+    right: 16px;
+    bottom: -16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 252px;
+    width: 100%;
+}
+
+.Investible-Score-Report-main-inner-card-tit {
+    margin-bottom: 10px;
+}
+
+.Investible-Score-Report-cont-wrap {
+    max-height: 625px;
+    height: 100%;
+}
+
+.Investible-Score-Report-main-para {
+    margin-bottom: 80px;
+}
+
+.Investible-Score-Report-main-inner-card-two {
+    background-color: var(--white);
+    border-radius: var(--radiusPrimary);
+    padding: 18px 18px;
+}
+
+.Investible-Score-Report-main-inner-card-two span {
+    margin-bottom: 10px;
+}
+
+.Investible-Score-Report-main-inner-card-two span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Investible-Score-Report-main-inner-card-two span b {
+    font-weight: inherit;
+}
+
+.Investible-Score-Report-pay-btn {
+    padding: 14px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: var(--primary);
+    width: 100%;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.Investible-Score-Report-pay-btn:hover {
+    background-color: var(--secondary);
+}
+
+.x-small-font {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: 0%;
+    margin: 0px;
+}
+
+.Investible-Score-Report-copy-rights {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Investible-Score-Report-pay-btn {
+    margin-bottom: 10px;
+}
+
+.Investible-Score-Report-Sec .House-Hunt-cont-card {
+    max-width: 456px;
+    width: 100%;
+}
+
+.Speak-to-an-Expert-sec .Desktop-Valuation-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: var(--radiusPrimary);
+}
+
+.Speak-to-an-Expert-sec .Desktop-Valuation-card>div {
+    display: flex;
+    gap: 30px;
+}
+
+.Speak-to-an-Expert-sec .Desktop-Valuation-card div p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+.Speak-to-an-Expert-card .Desktop-Valuation-btn {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.Speak-to-an-Expert-sec .House-Hunt-cont-card {
+    max-width: 456px;
+    width: 100%;
+    margin-left: auto;
+}
+
+.Unique-scales-Evaluation-list {
+    padding: 40px 0px;
+    text-align: center;
+    border-top: var(--border);
+}
+
+.Unique-scales-Evaluation-list h5 {
+    margin: 0px;
+}
+
+.Unique-scales-Evaluation-main-tit {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Why-choose-us-main-tit {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.Why-choose-us-main-card {
+    padding: 20px 30px;
+    border: var(--border);
+    border-radius: var(--radiusPrimary);
+}
+
+.Why-choose-us-main-card .primary-icon-wrap {
+    margin-bottom: 40px;
+}
+
+.Why-choose-us-main-card h6 {
+    margin-bottom: 8px;
+}
+
+.Why-choose-us-main-card p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.Why-choose-us-card-wrap {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.Why-choose-us-sec {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 155px;
+}
+
+.Why-choose-us-main-img {
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.Indias-Oldest-largest-repository-card {
+    padding: 20px 30px;
+    border: var(--border);
+    border-radius: var(--radiusPrimary);
+    position: relative;
+}
+
+.Indias-Oldest-largest-repository-card * {
+    transition: margin-bottom 0.5s ease-in-out;
+}
+
+.Indias-Oldest-largest-repository-card:hover {
+    background-color: #3A4963;
+    color: var(--primary);
+    padding: 30px 30px 70px 30px;
+}
+
+.Indias-Oldest-largest-repository-card:hover .Indias-Oldest-largest-repository-tit {
+    margin-bottom: 80px;
+}
+
+.Indias-Oldest-largest-repository-tit {
+    margin-bottom: 20px;
+}
+
+.Indias-Oldest-largest-mini-tit {
+    margin-bottom: 8px;
+}
+
+.IndiaOldest-Largest-Repository {
+    /* height: 400px; */
+    height: 720px;
+}
+
+.IndiaOldest-Largest-Repository-main-tit {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.Home-Tab-System .nav-pills {
+    justify-content: space-between;
+    /* gap: 90px; */
+    width: max-content;
+    margin: 0px auto;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -1%;
+    padding: 22px 60px;
+    border-radius: 24px;
+    border: var(--border);
+    max-width: 800px;
+    width: 100%;
+}
+
+.Home-Tab-System .House-Hunt-cont-card {
+    align-items: start;
+}
+
+.Home-Tab-System .nav-link {
+    color: black;
+}
+
+.Home-Tab-System .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
+    color: var(--secondary);
+
+}
+
+.home-tab-sec-card-wrap {
+    max-width: 800px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.home-tab-sec-card-wrap .col-lg-6,
+.home-tab-sec-card-wrap .col-lg-12 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.What-our-client-says-main-tit {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.swiper-slide {
+    /* height: 200px; */
+}
+
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.What-our-client-says-card-img{
+    margin-bottom: 50px;
+}
+
+.What-our-client-says-card p{
+   max-width: 491px;
+   width: 100%;
+   margin: 0px auto 20px;
+}
+
+.What-our-client-says-card-name img{
+    width: 90px;
+    height: 20px;
+}
+
+.What-our-client-says-card-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
+    width: calc(40% - 2* var(--swiper-scrollbar-sides-offset, 1%));
+}
+
+.swiper-scrollbar{
+    left: 100%;
+    transform: translateX(50%);
 }

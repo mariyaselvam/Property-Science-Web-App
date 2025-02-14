@@ -17,6 +17,13 @@ function loadComponent(selector, file) {
     loadComponent("#HomeGridSec", "assets/components/Home/HomeGridSec.html");
     loadComponent("#HouseHuntSec", "assets/components/Home/HouseHunt.html");
     loadComponent("#DesktopValuationSec", "assets/components/Home/DesktopValuationSec.html");
+    loadComponent("#InvestibleScoreReportSec", "assets/components/Home/InvestibleScoreReportSec.html");
+    loadComponent("#SpeakToAnExpert", "assets/components/Home/SpeakToAnExpert.html");
+    loadComponent("#UniquescalesofEvaluation", "assets/components/Home/Unique-scales-Evaluation.html");
+    loadComponent("#WhychooseUs", "assets/components/Home/Why-choose-us-sec.html");
+    loadComponent("#IndiaOldestLargestRepository", "assets/components/Home/India-Oldest-largest-repository.html");
+    loadComponent("#HomeTabSystem", "assets/components/Home/Home-Tab-system.html");
+    loadComponent("#Whatourclientsays", "assets/components/Home/What-our-client-says-sec.html");
   });
 
   
