@@ -1,85 +1,48 @@
 
 
-@media (min-width: 1200px){
-    .container{
-        max-width: 1304px;
+
+
+@media (max-width:1450px) {
+    .Home-Grid-cards-hailights-one{
+        height: auto;
     }
 }
 
-@media (max-width:1000px) {
-    .banner-main-img-wraper img{
-        position: relative;
+@media (max-width:1300px) {
+    .Home-Grid-cards-hailights-one{
+        margin: 0px auto;
     }
+}
 
-    .banner-bg-1 , .banner-bg-2{
-        display: none;
-    }
-
-    .House-Hunt-main-img{
-        width: 100%;
-        transform: translateX(0%);
-    }
-
-    .Desktop-Valuation-main-img-wrap > img{
-        max-width: 100%;
-    }
-
-    .Speak-to-an-Expert-sec .Desktop-Valuation-main-img-wrap > img{
-        max-height: 700px;
-        height: 700px;
-        object-fit: cover;
-        
-    }
-
-    .Desktop-Valuation-card-wrap{
-        flex-direction: row;
-    }
-
-    .Home-Grid-cards-wraper > *{
-        flex-basis: 400px;
-    }
-
-    .Investible-Score-Report-main-img{
-        position: relative;
-        width: 100%;
-        right: auto;
-        left: auto;
-        bottom: auto;
-        top: auto;
-    }
-
-    .Investible-Score-Report-cont-wrap{
-        max-height: 100%;
-    }
-
+@media (max-width:1200px) {
     .Investible-Score-Report-main-inner-cards-wrap{
         flex-direction: row;
         right: auto;
         bottom: auto;
         top: 50%;
         left: 50%;
-        transform: translate(-50% , -50%);
+        transform: translate(-50%, -50%);
         max-width: 100%;
         justify-content: center;
         flex-wrap: wrap;
-        /* height: 100%; */
+    }
+
+    .Investible-Score-Report-cont-wrap{
+        height: auto;
+        max-height: 100%;
     }
 
     .Investible-Score-Report-main-img{
-        /* max-height: 1500px;
-        height: 1500px; */
-        /* padding: 100px 0px; */
-        max-height: 700px;
-        height: 700px;
+        position: relative;
     }
 
-    .Investible-Score-Report-main-img img{
-        height: 100%;
+    .Home-Tab-System .nav-pills{
+        justify-content: center;
     }
-    
-}
 
-@media (max-width:1200px) {
+    .IndiaOldest-Largest-Repository{
+        height: auto;
+    }
 
     .Why-choose-us-main-card h6{
         max-width: 100% !important;
@@ -154,7 +117,103 @@
 
 }
 
+@media (max-width:1000px) {
+
+    .IndiaOldest-Largest-Repository{
+        max-height: 100%;
+        height: auto;
+    }
+
+    .Indias-Oldest-largest-repository-card{
+        /* height: 100%; */
+        /* margin-top: 30px; */
+    }
+
+    .House-Hunt-cont-wrap .House-Hunt-cont-card{
+        max-width: 100%;
+    }
+
+    .Speak-to-an-Expert-sec .House-Hunt-cont-card{
+        max-width: 100%;
+    }
+
+    .Investible-Score-Report-cont-wrap{
+       margin-right: auto;
+       height: auto;
+    }
+
+    .Investible-Score-Report-main-img{
+       position:static;
+    }
+
+    .banner-main-img-wraper img{
+        position: relative;
+    }
+
+    .banner-bg-1 , .banner-bg-2{
+        display: none;
+    }
+
+    .House-Hunt-main-img{
+        width: 100%;
+        transform: translateX(0%);
+    }
+
+    .Desktop-Valuation-main-img-wrap > img{
+        max-width: 100%;
+    }
+
+    .Speak-to-an-Expert-sec .Desktop-Valuation-main-img-wrap > img{
+        max-height: 700px;
+        height: 700px;
+        object-fit: cover;
+        
+    }
+
+    .Desktop-Valuation-card-wrap{
+        flex-direction: row;
+    }
+
+    .Home-Grid-cards-wraper > *{
+        flex-basis: 400px;
+    }
+
+    .Investible-Score-Report-main-img{
+        position: relative;
+        width: 100%;
+        right: auto;
+        left: auto;
+        bottom: auto;
+        top: auto;
+    }
+
+    .Investible-Score-Report-cont-wrap{
+        max-height: 100%;
+    }
+
+    .Investible-Score-Report-main-inner-cards-wrap{
+        flex-direction: row;
+        right: auto;
+        bottom: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        max-width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .Investible-Score-Report-main-img img{
+        height: 100%;
+    }
+    
+}
+
 @media (max-width:700px) {
+    .What-our-client-says-card{
+        padding: 20px;
+    }
+
     .House-Hunt-card-wrap{
         flex-direction: column;
     }
@@ -174,3 +233,9 @@
     }
 }
 
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1304px;
+    }
+}
