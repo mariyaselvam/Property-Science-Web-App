@@ -13,54 +13,9 @@ img {
     height: auto;
 }
 
+
+
 h1 {
-    font-weight: 700;
-    font-size: clamp(2.5rem, 5vw, 3.875rem); /* 40px - 62px */
-    line-height: clamp(3rem, 5.63vw, 4.5rem); /* 48px - 72px */
-}
-
-h2 {
-    font-weight: 700;
-    font-size: clamp(2.25rem, 4.06vw, 3.25rem); /* 36px - 52px */
-    line-height: clamp(2.75rem, 4.84vw, 3.875rem); /* 44px - 62px */
-}
-
-h3 {
-    font-weight: 700;
-    font-size: clamp(1.875rem, 3.28vw, 2.625rem); /* 30px - 42px */
-    line-height: clamp(2.25rem, 4.06vw, 3.25rem); /* 36px - 52px */
-}
-
-h4 {
-    font-weight: 700;
-    font-size: clamp(1.5rem, 2.66vw, 2.125rem); /* 24px - 34px */
-    line-height: clamp(2rem, 3.59vw, 2.875rem); /* 32px - 46px */
-}
-
-h5 {
-    font-weight: 600;
-    font-size: clamp(1.375rem, 2.19vw, 1.5rem); /* 22px - 24px */
-    line-height: clamp(1.75rem, 2.66vw, 2.125rem); /* 28px - 34px */
-}
-
-h6 {
-    font-weight: 600;
-    font-size: clamp(1.125rem, 1.72vw, 1.25rem); /* 18px - 20px */
-    line-height: clamp(1.375rem, 2.11vw, 1.5rem); /* 22px - 24px */
-}
-
-p {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: clamp(0.875rem, 1.25vw, 1rem); /* 14px - 16px */
-    line-height: clamp(1.25rem, 1.88vw, 1.5rem); /* 20px - 24px */
-}
-
-
-
-
-
-/* h1 {
     font-weight: 700;
     font-size: 62px;
     line-height: 72px;
@@ -101,7 +56,7 @@ p{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-} */
+}
 
 a {
     display: block;
