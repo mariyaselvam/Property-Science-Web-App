@@ -1144,3 +1144,36 @@ a:hover {
 .Investible-Score-Report-Sec{
     padding-bottom: 200px;
 }
+
+.Onboarding-breadcrumb-Sec{
+    padding: 200px 0px 250px;
+}
+
+.Onboarding-breadcrumb-wrap{
+    /* max-width: 525px; */
+    /* width: 100%; */
+}
+
+.tit-dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    display: block;
+}
+
+.Onboarding-breadcrumb-main-tit{
+    margin-bottom: 30px;
+}
+
+.Onboarding-breadcrumb-para{
+    margin-top: 20px;
+    max-width: 434px;
+    width: 100%;
+}
+
+.Onboarding-breadcrumb-Sec{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -9,10 +9,10 @@ function loadScripts(scripts) {
 
 // List of JS files to load
 const scriptsToLoad = [
-    "assets/js/script.js",
     "assets/js/bootstrap.js",
     "assets/js/components.js",
-    "assets/js/swiper.js"
+    "assets/js/swiper.js",
+    "assets/js/script.js",
 ];
 
 // Load scripts after DOM content is loaded
