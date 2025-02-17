@@ -14,6 +14,9 @@
   .Home-Grid-cards-hailights-one {
     margin: 0px auto;
   }
+  .Home-Grid-cards-6{
+    justify-content: center;
+  }
 }
 
 @media (max-width: 1200px) {

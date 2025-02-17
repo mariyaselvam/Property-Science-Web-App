@@ -260,7 +260,9 @@ a:hover {
 
 .Home-Grid-cards-6 {
     /* width: 519px; */
-    grid-row-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    /* grid-column-start: 2; */
     /* background-color: var(--primary); */
 }
 
@@ -391,6 +393,16 @@ a:hover {
 }
 
 .Home-Grid-card-see-testimonial {}
+
+.Home-Grid-card-see-testimonial span{
+    margin-bottom: 20px;
+    display: block;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -2%;
+}
 
 @media (max-width:1250px) {
     .Home-Grid-cards-wraper {
