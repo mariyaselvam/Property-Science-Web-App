@@ -39,11 +39,13 @@ document.addEventListener("DOMContentLoaded", () => {
 function initSwipers() {
     console.log("Initializing Swiper...");
 
+    // Ensure Swiper is loaded
     if (typeof Swiper === "undefined") {
         console.error("Swiper not loaded!");
         return;
     }
 
+    // Delay to ensure elements are inserted into the DOM
     setTimeout(() => {
         if (document.querySelector("#swiper1")) {
             new Swiper("#swiper1", {
@@ -75,5 +77,5 @@ function initSwipers() {
         } else {
             console.warn("Swiper2 container not found.");
         }
-    }, 500); // Delay ensures elements exist before initialization
+    }, 1000); // Increased delay to 1 second
 }
