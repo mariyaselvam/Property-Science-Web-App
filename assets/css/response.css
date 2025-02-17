@@ -4,6 +4,12 @@
   }
 }
 
+@media (max-width:1700px) {
+  .Why-choose-us-main-img{
+    display: none;
+  }
+}
+
 @media (max-width: 1300px) {
   .Home-Grid-cards-hailights-one {
     margin: 0px auto;
